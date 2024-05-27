@@ -1,17 +1,47 @@
 /* Define custom fonts */
 @font-face {
-    font-family: 'CustomFont1';
-    src: url('../fonts/font1.woff') format('woff');
+    font-family: 'JosefinSlab';
+    src: url('../fonts/serif/josefinslab-regular.ttf') format('truetype');
 }
 
 @font-face {
-    font-family: 'CustomFont2';
-    src: url('../fonts/font2.woff') format('woff');
+    font-family: 'RobotoSlab';
+    src: url('../fonts/serif/robotoslab-regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'RozhaOne';
+    src: url('../fonts/serif/rozhaone-regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Ultra';
+    src: url('../fonts/serif/ultra-regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Lato';
+    src: url('../fonts/sans-serif/lato-regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('../fonts/sans-serif/montserrat-regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'OpenSans';
+    src: url('../fonts/sans-serif/opensans-regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('../fonts/sans-serif/roboto-regular.ttf') format('truetype');
 }
 
 /* General styles */
 body {
-    font-family: 'CustomFont2', Arial, sans-serif;
+    font-family: 'Roboto', Arial, sans-serif;
     line-height: 1.6;
     margin: 0;
     padding: 0;
@@ -28,8 +58,11 @@ header {
 
 header h1 {
     margin: 0;
-    font-family: 'CustomFont1', Arial, sans-serif;
+    font-family: 'Ultra', Arial, sans-serif;
     font-size: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 header .highlight {
@@ -84,13 +117,29 @@ article {
     border-radius: 5px;
 }
 
-article h2, article h3 {
+article h2 {
+    font-family: 'RozhaOne', serif;
+    font-size: 2rem;
     color: #333;
+    margin-bottom: 1rem;
+}
+
+article h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.5rem;
+    color: #333;
+    margin-top: 1.5rem;
+    margin-bottom: 0.5rem;
 }
 
 article img {
     max-width: 100%;
     border-radius: 5px;
+    margin-bottom: 1rem;
+}
+
+article p {
+    font-size: 1rem;
     margin-bottom: 1rem;
 }
 
@@ -104,11 +153,19 @@ aside {
 
 aside h3 {
     color: #333;
+    font-family: 'Montserrat', Arial, sans-serif;
+    font-size: 1.2rem;
+    margin-top: 0;
 }
 
 aside img {
     max-width: 100%;
     border-radius: 5px;
+    margin-bottom: 1rem;
+}
+
+aside p {
+    font-size: 0.9rem;
     margin-bottom: 1rem;
 }
 
@@ -125,6 +182,7 @@ footer {
 
 footer p {
     margin: 0;
+    font-size: 0.9rem;
 }
 
 .expand {
@@ -155,6 +213,7 @@ footer p {
 .subsection figcaption {
     margin-top: 0.5rem;
     font-style: italic;
+    font-size: 0.9rem;
 }
 
 button {
