@@ -1,8 +1,19 @@
+/* Define custom fonts */
+@font-face {
+    font-family: 'Alfa Slab One';
+    src: url('../fonts/alfa-slab-one-regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Lato';
+    src: url('../fonts/lato-regular.ttf') format('truetype');
+}
+
 /* General styles for all headings */
 h1, h2, h3, h4, h5 {
     text-shadow: 2px 2px #000;
     color: #fff;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Alfa Slab One', Courier, monospace;
     margin: 10px;
     text-align: center;
     text-transform: uppercase;
@@ -33,6 +44,7 @@ h5 {
     padding: 0.5rem;
     background-color: #333;
     color: #fff;
+    font-family: 'Lato', Courier, monospace;
     font-weight: normal;
 }
 
@@ -46,6 +58,7 @@ p {
     padding: 0 1rem;
     width: 90%;
     text-align: left;
+    font-family: 'Lato', Courier, monospace;
 }
 
 /* Styles for figures and images */
