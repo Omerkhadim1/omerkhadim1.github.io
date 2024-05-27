@@ -20,29 +20,34 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Specific styles for each heading level */
+h1 {
+    font-size: 4rem;
+    letter-spacing: 0.5rem;
+}
+
 h2 {
-    font-size: 3rem;
-    letter-spacing: 0.25rem;
+    font-size: 3.5rem;
+    letter-spacing: 0.35rem;
     font-weight: normal;
     color: red; /* Set h2 text to red */
 }
 
 h3 {
-    font-size: 2rem;
+    font-size: 2.5rem;
     font-weight: normal;
     color: red; /* Set h3 text to red */
 }
 
 h4 {
-    font-size: 1.5rem;
-    letter-spacing: 0.25rem;
+    font-size: 1.75rem;
+    letter-spacing: 0.3rem;
     padding-bottom: 1.125rem;
     font-weight: normal;
     color: red; /* Set h4 text to red */
 }
 
 h5 {
-    font-size: 1rem;
+    font-size: 1.25rem;
     margin-top: 0.25rem;
     padding: 0.5rem;
     background-color: #333;
@@ -63,6 +68,7 @@ p {
     width: 90%;
     text-align: left;
     font-family: 'Lato', Courier, monospace;
+    font-size: 1.25rem; /* Adjust font size for better readability */
 }
 
 /* Styles for figures and images */
@@ -75,6 +81,7 @@ figcaption {
     padding-top: 0.5rem;
     text-align: right;
     font-family: 'Lato', Courier, monospace;
+    font-size: 1rem; /* Adjust font size for better readability */
 }
 
 img {
@@ -107,11 +114,12 @@ body {
 
 /* Container for the main content */
 main {
-    background: rgba(255, 255, 255, 0.8); /* Slightly transparent white background */
-    margin: 2rem;
+    background: rgba(255, 255, 255, 0.9); /* Slightly transparent white background */
+    margin: 2rem auto;
     padding: 2rem;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    max-width: 800px; /* Ensure max width for better alignment */
 }
 
 /* Style for approach caution text */
@@ -119,4 +127,5 @@ main {
     color: red;
     font-family: 'Alfa Slab One', Courier, monospace;
     text-transform: uppercase;
+    font-size: 1.5rem; /* Adjust font size */
 }
