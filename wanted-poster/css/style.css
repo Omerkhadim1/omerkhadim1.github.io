@@ -23,19 +23,20 @@ h1, h2, h3, h4, h5 {
 h1 {
     font-size: 4rem;
     letter-spacing: 0.5rem;
+    color: #b22222; /* Darker red for the Wanted text */
 }
 
 h2 {
     font-size: 3.5rem;
     letter-spacing: 0.35rem;
     font-weight: normal;
-    color: red; /* Set h2 text to red */
+    color: #b22222; /* Darker red for h2 text */
 }
 
 h3 {
     font-size: 2.5rem;
     font-weight: normal;
-    color: red; /* Set h3 text to red */
+    color: black; /* Black for h3 text */
 }
 
 h4 {
@@ -43,11 +44,11 @@ h4 {
     letter-spacing: 0.3rem;
     padding-bottom: 1.125rem;
     font-weight: normal;
-    color: red; /* Set h4 text to red */
+    color: #b22222; /* Darker red for h4 text */
 }
 
 h5 {
-    font-size: 1.25rem;
+    font-size: 1rem; /* Smaller font size for h5 */
     margin-top: 0.25rem;
     padding: 0.5rem;
     background-color: #333;
@@ -124,7 +125,7 @@ main {
 
 /* Style for approach caution text */
 .caution-text {
-    color: red;
+    color: #b22222; /* Darker red */
     font-family: 'Alfa Slab One', Courier, monospace;
     text-transform: uppercase;
     font-size: 1.5rem; /* Adjust font size */
