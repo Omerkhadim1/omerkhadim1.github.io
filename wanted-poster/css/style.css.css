@@ -74,3 +74,10 @@ footer {
 h4 > span {
     padding: 0 0.5rem;
 }
+
+/* Background image styling for body */
+body {
+    background-image: url('../images/wrinkled-white-paper-background.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
