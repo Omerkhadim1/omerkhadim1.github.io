@@ -24,11 +24,13 @@ h2 {
     font-size: 3rem;
     letter-spacing: 0.25rem;
     font-weight: normal;
+    color: red; /* Set h2 text to red */
 }
 
 h3 {
     font-size: 2rem;
     font-weight: normal;
+    color: red; /* Set h3 text to red */
 }
 
 h4 {
@@ -36,6 +38,7 @@ h4 {
     letter-spacing: 0.25rem;
     padding-bottom: 1.125rem;
     font-weight: normal;
+    color: red; /* Set h4 text to red */
 }
 
 h5 {
@@ -51,6 +54,7 @@ h5 {
 /* Styles for section and paragraphs */
 section {
     margin-top: 0.5rem;
+    text-align: center;
 }
 
 p {
@@ -64,11 +68,13 @@ p {
 /* Styles for figures and images */
 figure {
     margin-bottom: 2rem;
+    text-align: center;
 }
 
 figcaption {
     padding-top: 0.5rem;
     text-align: right;
+    font-family: 'Lato', Courier, monospace;
 }
 
 img {
@@ -81,6 +87,8 @@ img {
 footer {
     padding: 1rem;
     border-top: 2rem solid #333;
+    text-align: center;
+    font-family: 'Lato', Courier, monospace;
 }
 
 /* Child selector for spacing around symbols in h4 */
@@ -93,4 +101,22 @@ body {
     background-image: url('../images/wrinkled-white-paper-background.jpg');
     background-size: cover;
     background-repeat: no-repeat;
+    margin: 0;
+    padding: 0;
+}
+
+/* Container for the main content */
+main {
+    background: rgba(255, 255, 255, 0.8); /* Slightly transparent white background */
+    margin: 2rem;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+/* Style for approach caution text */
+.caution-text {
+    color: red;
+    font-family: 'Alfa Slab One', Courier, monospace;
+    text-transform: uppercase;
 }
