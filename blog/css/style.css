@@ -28,6 +28,7 @@ header {
 header h1 {
     margin: 0;
     font-family: 'CustomFont1', Arial, sans-serif;
+    font-size: 2.5rem; /* Adjust font size for better visibility */
 }
 
 header .subtitle {
@@ -37,7 +38,7 @@ header .subtitle {
 
 nav {
     background: #444;
-    padding: 0.5rem;
+    padding: 1rem; /* Adjust padding for better spacing */
 }
 
 nav ul {
@@ -55,12 +56,16 @@ nav ul li {
 nav ul li a {
     color: #fff;
     text-decoration: none;
+    font-weight: bold;
 }
 
 main {
     padding: 2rem;
     max-width: 800px;
-    margin: auto;
+    margin: 2rem auto; /* Add margin to the top and bottom */
+    background-color: #eaeaea;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 article {
@@ -68,16 +73,23 @@ article {
     margin-bottom: 2rem;
     padding: 1rem;
     border-radius: 5px;
-    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 article h2 {
     color: #333;
+    font-size: 1.8rem; /* Adjust font size */
+    margin-top: 0;
 }
 
 article img {
     max-width: 100%;
     border-radius: 5px;
+    margin-bottom: 1rem;
+}
+
+article p {
+    font-size: 1rem; /* Adjust font size for readability */
 }
 
 footer {
@@ -85,4 +97,11 @@ footer {
     color: #fff;
     text-align: center;
     padding: 1rem 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+footer p {
+    margin: 0;
 }
